@@ -39,7 +39,7 @@ namespace Lab3CSharp
 
         public bool IsSquare()
         {
-            return 2 * a * a == d1 * d1;
+            return Math.abs(2 * a * a - d1 * d1)< e-5;
         }
 
         public int Side
